@@ -12,7 +12,8 @@ import NowPlaying from "./NowPlaying";
 //const clientId ="01b7b53919a14c7787b6fcfc202587da"; // your clientId
 const clientId = process.env.REACT_APP_CLIENT_ID; // your clientId
 const clientSecret = process.env.REACT_APP_CLIENT_SECRET; // your clientSecret
-const redirectUrl = "http://localhost:3000"; // your redirect URL - must be localhost URL and/or HTTPS
+const redirectUrl =
+  "https://66d8c347473d9a3d6dddf2a4--celebrated-crostata-5d650e.netlify.app/"; // your redirect URL - must be localhost URL and/or HTTPS
 //const redirectUrl = "https://m4tryxxx.github.io/jammming/"; // your redirect URL - must be localhost URL and/or HTTPS
 console.log(clientId);
 const authorizationEndpoint = "https://accounts.spotify.com/authorize";
